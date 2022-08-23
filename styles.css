@@ -28,7 +28,7 @@ html {
   top: 0;
 }
 
-#nav li {
+#nav ul {
   display: inline-block;
   padding-left: 0;
 }
