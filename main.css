@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
-
 .container {
   max-width: 1100px;
   padding: 0 10px;
@@ -62,18 +58,77 @@ ul {
   transition: 0.3s;
 }
 
+.header_name {
+  padding-left: 20px;
+}
+
+.header_leftside {
+  display: flex;
+  align-items: center;
+}
+
+.header_photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+  clip-path: circle();
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.header_photo:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+  transform: scale(1.15);
+}
+
+.header_photo img {
+  width: 100%;
+}
+
 .header_rightside {
   display: flex;
   align-items: center;
 }
 
-.header-menu_list {
+.header_menu {
   display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.intro-soc {
+  display: flex;
+  margin: 0 -10px;
+  margin-top: 40px;
   align-items: center;
 }
 
-.header-menu_item {
+.intro-soc_item {
   padding: 0 10px;
+}
+
+.intro-soc_link {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  font-size: 24px;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.intro-soc_link:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+  transform: scale(1.15);
 }
 
 .header-menu_link {
@@ -182,37 +237,6 @@ ul {
   color: var(--text-color);
   margin-bottom: 30px;
   transition: 0.3s;
-}
-
-.intro-soc {
-  display: flex;
-  margin: 0 -10px;
-  margin-top: 40px;
-  align-items: center;
-}
-
-.intro-soc_item {
-  padding: 0 10px;
-}
-
-.intro-soc_link {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid var(--primary-color);
-  background: transparent;
-  font-size: 24px;
-  color: var(--primary-color);
-  transition: 0.3s;
-}
-
-.intro-soc_link:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
-  transform: scale(1.15);
 }
 
 body.is-black {
