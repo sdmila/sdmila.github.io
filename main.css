@@ -51,25 +51,6 @@ a {
   align-items: center;
 }
 
-.header_name {
-  padding-left: 20px;
-}
-
-#header-headline {
-  font-weight: 600;
-  font-size: 28px;
-  color: var(--text-color);
-  transition: 0.3s;
-}
-
-#header-subtitle {
-}
-
-.header_leftside {
-  display: flex;
-  align-items: center;
-}
-
 .header_photo {
   width: 128px;
   height: 128px;
@@ -90,6 +71,25 @@ a {
 
 .header_photo img {
   width: 100%;
+}
+
+.header_name {
+  padding-left: 20px;
+}
+
+#header-headline {
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+#header-subtitle {
+}
+
+.header_leftside {
+  display: flex;
+  align-items: center;
 }
 
 .header_rightside {
