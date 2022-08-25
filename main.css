@@ -235,3 +235,117 @@ body.is-black {
 .is-black .header-menu_link:after {
   background: var(--invert-primary-color);
 }
+
+.is-black .header_moon {
+  color: var(--invert-text-color);
+}
+
+.is-black .intro_title {
+  color: var(--invert-text-color);
+}
+
+.is-black .intro_title span {
+  color: var(--invert-primary-color);
+}
+
+.is-black .intro_text {
+  color: var(--invert-text-color);
+}
+
+.is-black .intro-soc_link {
+  color: var(--invert-primary-color);
+  border-color: var(--invert-primary-color);
+}
+
+.is-black .intro-soc_link:hover {
+  background: var(--invert-primary-color);
+  color: var(--white-color);
+}
+
+.is-black .header_mob-menu {
+  color: var(--invert-text-color);
+}
+
+@media (max-width: 1023px) {
+  .header-menu_link {
+    font-size: 16px;
+  }
+  .header_logo {
+    font-size: 24px;
+  }
+  .intro_title {
+    font-size: 42px;
+  }
+  .intro_position {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .intro_text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .intro-soc {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 20px 0;
+  }
+  .intro {
+    min-height: calc(100vh - 69px);
+  }
+  .header-menu {
+    position: fixed;
+    top: 69px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 69px);
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .header-menu.is-active {
+    left: 0;
+  }
+  .header-menu_list {
+    flex-direction: column;
+  }
+  .header_mob {
+    display: block;
+  }
+  .is-black .header-menu {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .header-menu_item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .header-menu_link {
+    font-size: 24px;
+  }
+  .intro_bdy {
+    flex-direction: column-reverse;
+  }
+  .intro_img {
+    margin-bottom: 30px;
+  }
+  .intro_content {
+    padding: 0;
+  }
+  .intro_title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .intro_position {
+    text-align: center;
+  }
+  .intro_text {
+    text-align: center;
+  }
+  .intro-soc {
+    justify-content: center;
+  }
+}
