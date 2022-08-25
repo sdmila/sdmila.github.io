@@ -214,3 +214,24 @@ ul {
   color: var(--white-color);
   transform: scale(1.15);
 }
+
+body.is-black {
+  background: var(--invert-bg-color);
+}
+
+.is-black .header {
+  background: var(--invert-bg-color);
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.is-black .header_logo {
+  color: var(--invert-text-color);
+}
+
+.is_black .header-menu_link {
+  color: var(--invert-text-color);
+}
+
+.is-black .header-menu_link:after {
+  background: var(--invert-primary-color);
+}
