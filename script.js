@@ -1,3 +1,3 @@
-document.querySelector(".header_moon").onClock = function () {
+document.querySelector(".header_moon").onclick = function () {
   document.querySelector("body").classList.toggle("is-black");
 };
