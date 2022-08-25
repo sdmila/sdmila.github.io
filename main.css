@@ -110,3 +110,17 @@ ul {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.header_mob-menu {
+  margin-left: 10px;
+  font-size: 26px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.header_mob {
+  display: none;
+}
