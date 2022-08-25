@@ -184,6 +184,17 @@ ul {
   transition: 0.3s;
 }
 
+.intro-soc {
+  display: flex;
+  margin: 0 -10px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.intro-soc_item {
+  padding: 0 10px;
+}
+
 .intro-soc_link {
   display: flex;
   width: 40px;
